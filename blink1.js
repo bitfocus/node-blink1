@@ -1,4 +1,5 @@
 var HID = require('node-hid');
+HID.setDriverType('libusb');
 
 var VENDOR_ID = 0x27B8;
 var PRODUCT_ID = 0x01ED;

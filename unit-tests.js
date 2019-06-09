@@ -53,6 +53,10 @@ describe('blink(1)', function() {
 
     HID: function(path) {
       return (path === MOCK_HID_DEVICE_1_PATH) ? mockHIDdevice : null;
+    },
+
+    setDriverType: function(type) {
+      return;
     }
   };
 
